@@ -1100,13 +1100,13 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="NAME" x="144.778140625" y="127.5156" size="1.77865" layer="95"/>
 <attribute name="VALUE" x="142.230990625" y="78.6995" size="1.78115" layer="96"/>
 </instance>
-<instance part="J1" gate="G$1" x="-33.02" y="104.14" smashed="yes" rot="MR0"/>
-<instance part="SUPPLY1" gate="GND" x="-27.94" y="93.98" smashed="yes">
-<attribute name="VALUE" x="-32.385" y="95.885" size="1.778" layer="96"/>
+<instance part="J1" gate="G$1" x="-12.7" y="101.6" smashed="yes" rot="MR0"/>
+<instance part="SUPPLY1" gate="GND" x="-7.62" y="91.44" smashed="yes">
+<attribute name="VALUE" x="-12.065" y="93.345" size="1.778" layer="96"/>
 </instance>
 <instance part="SUPPLY2" gate="GND" x="116.84" y="96.52" smashed="yes" rot="R270"/>
 <instance part="SUPPLY11" gate="GND" x="175.26" y="121.92" smashed="yes" rot="R90"/>
-<instance part="U$1" gate="G$1" x="-2.54" y="111.76" smashed="yes"/>
+<instance part="U$1" gate="G$1" x="17.78" y="109.22" smashed="yes"/>
 <instance part="ADC" gate="G$1" x="86.36" y="38.1" smashed="yes">
 <attribute name="VALUE" x="81.28" y="15.24" size="1.27" layer="95"/>
 </instance>
@@ -1149,11 +1149,11 @@ In this library the device names are the same as the pin names of the symbols, t
 <instance part="P+3" gate="VCC" x="139.7" y="63.5" smashed="yes">
 <attribute name="VALUE" x="142.24" y="63.5" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY7" gate="GND" x="0" y="91.44" smashed="yes">
-<attribute name="VALUE" x="-4.445" y="93.345" size="1.778" layer="96"/>
+<instance part="SUPPLY7" gate="GND" x="20.32" y="88.9" smashed="yes">
+<attribute name="VALUE" x="15.875" y="90.805" size="1.778" layer="96"/>
 </instance>
-<instance part="P+1" gate="VCC" x="30.48" y="121.92" smashed="yes">
-<attribute name="VALUE" x="30.48" y="121.92" size="1.778" layer="96"/>
+<instance part="P+1" gate="VCC" x="50.8" y="119.38" smashed="yes">
+<attribute name="VALUE" x="50.8" y="119.38" size="1.778" layer="96"/>
 </instance>
 <instance part="JP1" gate="A" x="78.74" y="104.14" smashed="yes">
 <attribute name="NAME" x="72.39" y="109.855" size="1.778" layer="95"/>
@@ -1175,7 +1175,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <segment>
 <pinref part="J1" gate="G$1" pin="2"/>
 <pinref part="SUPPLY1" gate="GND" pin="GND"/>
-<wire x1="-27.94" y1="96.52" x2="-27.94" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="-7.62" y1="93.98" x2="-7.62" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="A1" gate="A" pin="GND"/>
@@ -1340,8 +1340,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <segment>
 <pinref part="U$1" gate="G$1" pin="VOUT"/>
 <pinref part="P+1" gate="VCC" pin="VCC"/>
-<wire x1="17.78" y1="106.68" x2="30.48" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="106.68" x2="30.48" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="104.14" x2="50.8" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="104.14" x2="50.8" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="JP1" gate="A" pin="1"/>
@@ -1633,8 +1633,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <segment>
 <pinref part="U$1" gate="G$1" pin="VIN"/>
 <pinref part="J1" gate="G$1" pin="1"/>
-<wire x1="-17.78" y1="106.68" x2="-27.94" y2="106.68" width="0.1524" layer="91"/>
-<label x="-27.94" y="106.68" size="1.778" layer="95"/>
+<wire x1="2.54" y1="104.14" x2="-7.62" y2="104.14" width="0.1524" layer="91"/>
+<label x="-7.62" y="104.14" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="VBAT_SEL" gate="1" pin="2"/>

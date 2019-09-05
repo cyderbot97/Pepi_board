@@ -1,5 +1,5 @@
 [Eagle]
-Version="09 03 00"
+Version="09 04 02"
 Platform="Windows"
 Globals="Globals"
 Desktop="Desktop"
@@ -182,7 +182,6 @@ UsedLibraryUrn="urn:adsk.eagle:library:417"
 UsedLibraryUrn="urn:adsk.eagle:library:418"
 UsedLibraryUrn="urn:adsk.eagle:library:419"
 UsedLibraryUrn="urn:adsk.eagle:library:527439"
-UsedLibraryUrn="urn:adsk.eagle:library:420"
 UsedLibraryUrn="urn:adsk.eagle:library:116"
 UsedLibraryUrn="urn:adsk.eagle:library:117"
 UsedLibraryUrn="urn:adsk.eagle:library:118"
@@ -264,7 +263,7 @@ UsedLibraryUrn="urn:adsk.eagle:library:196"
 UsedLibraryUrn="urn:adsk.eagle:library:197"
 UsedLibraryUrn="urn:adsk.eagle:library:198"
 UsedLibraryUrn="urn:adsk.eagle:library:199"
-UsedLibrary="C:/Users/cyril_polytech/Documents/EAGLE/libraries/lib2.lbr"
+UsedLibraryUrn="urn:adsk.eagle:library:420"
 
 [Win_1]
 Type="Control Panel"
