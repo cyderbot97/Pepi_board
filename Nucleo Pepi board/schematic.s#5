@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.0">
+<eagle version="9.4.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1072,8 +1072,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="SUPPLY7" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="JP1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:6240710/1"/>
-<part name="VBAT_SEL" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ" device="" package3d_urn="urn:adsk.eagle:package:15471/1"/>
-<part name="5V_SEL" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ" device="" package3d_urn="urn:adsk.eagle:package:15471/1"/>
+<part name="VBAT" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ" device="W" package3d_urn="urn:adsk.eagle:package:15507/1"/>
+<part name="5V" library="jumper" library_urn="urn:adsk.eagle:library:252" deviceset="SJ" device="W" package3d_urn="urn:adsk.eagle:package:15507/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -1159,11 +1159,11 @@ In this library the device names are the same as the pin names of the symbols, t
 <attribute name="NAME" x="72.39" y="109.855" size="1.778" layer="95"/>
 <attribute name="VALUE" x="72.39" y="96.52" size="1.778" layer="96"/>
 </instance>
-<instance part="VBAT_SEL" gate="1" x="167.64" y="124.46" smashed="yes">
+<instance part="VBAT" gate="1" x="167.64" y="124.46" smashed="yes">
 <attribute name="NAME" x="165.1" y="127" size="1.778" layer="95"/>
 <attribute name="VALUE" x="165.1" y="120.65" size="1.778" layer="96"/>
 </instance>
-<instance part="5V_SEL" gate="1" x="167.64" y="116.84" smashed="yes">
+<instance part="5V" gate="1" x="167.64" y="116.84" smashed="yes">
 <attribute name="NAME" x="165.1" y="119.38" size="1.778" layer="95"/>
 <attribute name="VALUE" x="165.1" y="113.03" size="1.778" layer="96"/>
 </instance>
@@ -1350,9 +1350,9 @@ In this library the device names are the same as the pin names of the symbols, t
 <label x="63.5" y="109.22" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="5V_SEL" gate="1" pin="2"/>
 <wire x1="172.72" y1="116.84" x2="175.26" y2="116.84" width="0.1524" layer="91"/>
 <label x="175.26" y="116.84" size="1.778" layer="95"/>
+<pinref part="5V" gate="1" pin="2"/>
 </segment>
 </net>
 <net name="PA9" class="0">
@@ -1637,9 +1637,9 @@ In this library the device names are the same as the pin names of the symbols, t
 <label x="-7.62" y="104.14" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="VBAT_SEL" gate="1" pin="2"/>
 <wire x1="172.72" y1="124.46" x2="175.26" y2="124.46" width="0.1524" layer="91"/>
 <label x="175.26" y="124.46" size="1.778" layer="95"/>
+<pinref part="VBAT" gate="1" pin="2"/>
 </segment>
 </net>
 <net name="VCOM" class="0">
@@ -1688,15 +1688,15 @@ In this library the device names are the same as the pin names of the symbols, t
 <net name="N$1" class="0">
 <segment>
 <pinref part="A1" gate="B" pin="VIN"/>
-<pinref part="VBAT_SEL" gate="1" pin="1"/>
 <wire x1="162.56" y1="124.46" x2="160.02" y2="124.46" width="0.1524" layer="91"/>
+<pinref part="VBAT" gate="1" pin="1"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
 <pinref part="A1" gate="B" pin="+5V"/>
-<pinref part="5V_SEL" gate="1" pin="1"/>
 <wire x1="162.56" y1="116.84" x2="160.02" y2="116.84" width="0.1524" layer="91"/>
+<pinref part="5V" gate="1" pin="1"/>
 </segment>
 </net>
 </nets>
